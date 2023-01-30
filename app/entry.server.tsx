@@ -4,7 +4,7 @@ import { Response } from '@remix-run/node'
 import { RemixServer } from '@remix-run/react'
 import isbot from 'isbot'
 import { renderToPipeableStream } from 'react-dom/server'
-import { getEnv } from './routes/env.server'
+import { getEnv } from './env.server'
 
 global.ENV = getEnv()
 

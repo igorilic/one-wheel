@@ -12,7 +12,7 @@ import {
 
 import tailwindStylesheetUrl from './styles/tailwind.css'
 import { getUser } from './session.server'
-import { getEnv } from './routes/env.server'
+import { getEnv } from './env.server'
 
 export const links: LinksFunction = () => {
   return [{ rel: 'stylesheet', href: tailwindStylesheetUrl }]
